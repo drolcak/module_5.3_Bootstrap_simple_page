@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box; /* nie dziedziczy*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gallery .row {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
