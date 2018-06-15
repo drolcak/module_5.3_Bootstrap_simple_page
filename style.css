@@ -8,8 +8,27 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.gallery .row {
+section {
+    margin: 5vh 0;
+    border-bottom: solid 1px;
+}
+
+.gallery .row img {
     width: 100%;
-    max-height: 250px;
+    height: 350px;
     object-fit: cover;
+}
+
+.form-group label {
+    font-size: smaller;
+}
+
+/*input {*/
+    /*font-size: smaller;*/
+/*}*/
+
+@media only screen and (max-width: 768px) {
+    .gallery img {
+        margin: 2px 0;
+    }
 }
